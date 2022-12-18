@@ -1,0 +1,2 @@
+docker build -t carlosmongo .
+docker run --detach --publish 37017:27017 carlosmongo
